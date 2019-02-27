@@ -1,0 +1,21 @@
+
+
+
+project structure 
+
+.src
++-----*app
+|     +----*employees
+|     |     |----employees.component.ts|.html|.css
+|     |     +-------*employee
+|     |     |    |-----employee.component|.html|.css
+|     |     |
+|     |     +-------*employee-list
+|     |     |    |-----employee.service.ts
+|     |     |    |-----employee.model.ts
+|     |--app.module.ts(configured firebase connection)
+|     |
++-----*environments
+|     |---environment.ts(saved firebase connection details)
+|     |
+|------index.html(cdn path for bootstarp and font awesome)
